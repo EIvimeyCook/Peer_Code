@@ -1,4 +1,4 @@
-#this function will create a nice alternative to a boxplot, twovariants give different alternatives.
+#this function will create a nice alternative to a boxplot, two  variants give different alternatives.
 
 Distribeaut_Shape <- function(data, xvar, yvar, fillvar, shapevar){
   require(grid)
