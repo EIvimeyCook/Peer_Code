@@ -33,10 +33,10 @@ library(gghalves)
 library(car)
 library(hablar)
 library(sjPlot)
+library(grid)
+library(ggthemes)
 
 theme_Publication <- function(base_size = 15, base_family = "Arial") {
-  library(grid)
-  library(ggthemes)
   (theme_foundation(base_size = base_size, base_family = base_family)
   + theme(
       plot.title = element_text(
